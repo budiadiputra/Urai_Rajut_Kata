@@ -1,0 +1,74 @@
+a = "code"
+
+l = 0
+while True:
+  c = a[l]
+  l += 1
+  if l == 1:
+    o = a[l-1],a[l]
+    l += 1
+    if l == 2:
+      d = a[l-2],a[l-1],a[l]
+      l += 1  
+      if l == 3:
+        e = a[l-3],a[l-2],a[l-1],a[l]
+        print(c,o,d,e)
+        break
+
+a = "python"
+
+l = 0
+while True:
+  p = a[l]
+  l += 1
+  if l == 1:
+    y = a[l-1],a[l]
+    l += 1
+    if l == 2:
+      t = a[l-2],a[l-1],a[l]
+      l += 1  
+      if l == 3:
+        h = a[l-3],a[l-2],a[l-1],a[l]
+        l += 1
+        if l == 4:
+            o = a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+            l += 1
+            if l == 5:
+                n = a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                print(p,y,t,h,o,n)
+                break
+
+a = "purwadhika"
+
+l = 0
+while True:
+  p = a[l]
+  l += 1
+  if l == 1:
+    u = a[l-1],a[l]
+    l += 1
+    if l == 2:
+      r = a[l-2],a[l-1],a[l]
+      l += 1  
+      if l == 3:
+        w = a[l-3],a[l-2],a[l-1],a[l]
+        l += 1
+        if l == 4:
+            a = a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+            l += 1
+            if l == 5:
+                d = a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                l += 1
+                if l == 6:
+                    h = a[l-6],a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                    l += 1
+                    if l == 7:
+                        i = a[l-7],a[l-6],a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                        l += 1
+                        if l == 8:
+                            k = a[l-8],a[l-7],a[l-6],a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                            l += 1
+                            if l == 9:
+                                a = a[l-9],a[l-8],a[l-7],a[l-6],a[l-5],a[l-4],a[l-3],a[l-2],a[l-1],a[l]
+                                print(p,u,r,w,a,d,h,i,k,a)
+                                break
