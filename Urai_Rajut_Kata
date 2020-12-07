@@ -1,8 +1,25 @@
-def urai(a):
-  limit = len(a) + 1
-  for baris in range(0, limit):
-      for angka in range(0, baris):
-          print(a[angka], end = '')
+def urai (a):
+  l = 0
+  while l <= len(a):
+    print(a[:l], end = "")
+    l += 1
+    
+y = input("\nInput Words : ")
+urai(y)
 
-x = input("Masukkann Kata : ")
-urai(x)
+
+
+def rajut(a):
+  l = 0
+  while True:
+    b = int((0.5 * l ) * (l + 1)) 
+    c = int(((l + 1) + 2) * ((l + 1) - 1)/2)
+    l = l + 1
+    if c + 1 == len(a):
+      h = (a[b:(c+1)])
+      break
+
+  return h
+
+x = input("\nInput a repeated words : ")
+print(rajut(x))
